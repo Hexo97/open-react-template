@@ -44,8 +44,8 @@ const FeaturesTiles = ({
   );
 
   const sectionHeader = {
-    title: 'Build up the whole picture',
-    paragraph: 'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum — semper quis lectus nulla at volutpat diam ut venenatis.'
+    title: 'Join us for better learning experience',
+    paragraph: 'With our experienced instructors along with the new technology used in our online videos - The first to integrate 3D hologram learning experience'
   };
 
   return (

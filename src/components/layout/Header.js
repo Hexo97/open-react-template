@@ -13,9 +13,8 @@ const propTypes = {
 }
 
 const defaultProps = {
-  navPosition: '',
+  navPosition: 'left',
   hideNav: false,
-  hideSignin: false,
   bottomOuterDivider: false,
   bottomDivider: false
 }
@@ -115,14 +114,6 @@ const Header = ({
                       <Link to="#0" onClick={closeMenu}>Documentation</Link>
                     </li>
                   </ul>
-                  {!hideSignin &&
-                    <ul
-                      className="list-reset header-nav-right"
-                    >
-                      <li>
-                        <Link to="#0" className="button button-primary button-wide-mobile button-sm" onClick={closeMenu}>Sign up</Link>
-                      </li>
-                    </ul>}
                 </div>
               </nav>
             </>}
